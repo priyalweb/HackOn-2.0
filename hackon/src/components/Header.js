@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -24,12 +25,20 @@ const Header = () => {
         <div className={classes.root}>
             <AppBar position="static" style={{ backgroundColor: '#faf8ba' }}>
                 <Toolbar>
-                    <Typography variant="h6" className={classes.title}>
-                        Web App
-                    </Typography>
-                    <Typography variant="h6" style={{ color: '#eea96a' }}>
-                        About
-                    </Typography>
+                    
+                        <Typography variant="h6" className={classes.title}>
+                            <Link to="/">
+                            Web App
+                            </Link>
+                        </Typography>
+                    
+                    
+                        <Typography variant="h6" style={{ color: '#eea96a' }}>
+                            <Link to="/">
+                                About 
+                            </Link>
+                        </Typography>
+                   
                 </Toolbar>
             </AppBar>
         </div>

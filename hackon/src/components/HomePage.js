@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <>
         <Container>
-        <Grid container justify = "center" alignItems="center" style={{marginTop: 40}}>
+        <Grid container justify = "center" alignItems="center" style={{marginTop: 40,minHeight: '80vh'}}>
             <Grid item  xs={12} md={4} style={{marginBottom: 30}}>
                 <Card1/>
             </Grid>
