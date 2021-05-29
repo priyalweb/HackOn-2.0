@@ -24,12 +24,12 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="/default-img.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Diabeties Detection
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
